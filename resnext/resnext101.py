@@ -1,3 +1,6 @@
+import sys
+sys.path.insert(0, '../resnext/')
+
 import resnext_101_32x4d_
 import torch
 from torch import nn

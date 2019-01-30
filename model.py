@@ -2,7 +2,7 @@ import torch
 import torch.nn.functional as F
 from torch import nn
 
-from resnext import ResNeXt101
+from resnext.resnext101 import ResNeXt101
 
 
 class R3Net(nn.Module):
